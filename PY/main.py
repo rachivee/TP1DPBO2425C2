@@ -89,7 +89,7 @@ def main():
             found = False
             for prod in products_list:
                 # Check for matching product code
-                if prod.code == search_code:
+                if prod.getcode() == search_code:
                     # Display product details
                     print("\nProduct found:")
                     print(f"| Code: {prod.getcode()}")
@@ -114,3 +114,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
