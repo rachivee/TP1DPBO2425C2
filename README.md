@@ -31,5 +31,6 @@ Di dalam program sederhana yang dibuat, pengguna dapat menggunakan 5 fitur yang 
 <img width="1886" height="648" alt="image" src="https://github.com/user-attachments/assets/131afb91-386f-42fa-91f1-74a91fb4db71" />
 
 # PHP
-<img width="1900" height="829" alt="image" src="https://github.com/user-attachments/assets/cc936cb9-7bb9-4860-b9f8-121afb4c189c" />
+<img width="1891" height="852" alt="image" src="https://github.com/user-attachments/assets/24fc86b0-d7ac-4c1d-bf66-d42bd7ac9d5b" />
+
 
