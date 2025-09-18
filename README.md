@@ -15,14 +15,14 @@ Di dalam program sederhana yang dibuat, pengguna dapat menggunakan 5 fitur yang 
 4. Update Product, fitur ini digunakan saat ingin memperbarui data dari produk, kecuali code, dan harus mengisi seluruh data (Name, Category, dan Description)
 5. Search Product, fitur ini digunakan saat ingin mencari produk tertentu menggunakan code produknya
 
-#C++
+# C++
 <img width="1846" height="867" alt="image" src="https://github.com/user-attachments/assets/52a5c59a-2fdc-49c1-808a-5929e932a52e" />
 <img width="1890" height="995" alt="image" src="https://github.com/user-attachments/assets/616e5297-aa32-4be9-82cf-a07f1c3dab61" />
 <img width="1890" height="561" alt="image" src="https://github.com/user-attachments/assets/06abca6c-8eb3-4e1a-b42c-391551ab25d8" />
 
-#JAVA
+# JAVA
 
-#PYTHON
+# PYTHON
 
-#PHP
+# PHP
 
