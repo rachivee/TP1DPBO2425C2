@@ -52,7 +52,7 @@ def main():
             found = False
             for i, prod in enumerate(products_list): 
                 # Check for matching product code
-                if prod.code == remove_code:
+                if prod.getcode() == remove_code:
                     products_list.pop(i) # Remove the product
                     found = True
 
@@ -66,7 +66,7 @@ def main():
             update_code = input("\nEnter the product code to update: ")
             found = False
             for prod in products_list:
-                if prod.code == update_code:
+                if prod.getcode() == update_code:
                     # Gather new product details
                     new_name = input("Enter new product name: ")
                     new_category = input("Enter new product category: ")
@@ -114,4 +114,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
