@@ -7,29 +7,29 @@ class Sumisang:
         self.__desc = desc
 
     # Getter and Setter for 'code'
-    def code(self):
+    def getcode(self):
         return self.__code
 
-    def code(self, value):
+    def setcode(self, value):
         self.__code = value
 
     # Getter and Setter for 'name'
-    def name(self):
+    def getname(self):
         return self.__name
 
-    def name(self, value):
+    def setname(self, value):
         self.__name = value
 
     # Getter and Setter for 'category'
-    def category(self):
+    def getcategory(self):
         return self.__category
 
-    def category(self, value):
+    def setcategory(self, value):
         self.__category = value
 
     # Getter and Setter for 'desc'
-    def desc(self):
+    def getdesc(self):
         return self.__desc
 
-    def desc(self, value):
+    def setdesc(self, value):
         self.__desc = value
