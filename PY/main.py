@@ -32,8 +32,8 @@ def main():
             print("\nList of Products:\n") # View Products
             for i, prod in enumerate(products_list):
                 # Display product details
-                print(f"[{i + 1}] {prod.code} | {prod.name} | {prod.category}")
-                print(f"    {prod.desc}\n")
+                print(f"[{i + 1}] {prod.getcode()} | {prod.getname()} | {prod.getcategory()}")
+                print(f"    {prod.getdesc()}\n")
 
         elif selected_option == 2: # Add Product
             # Gather product details
@@ -92,10 +92,10 @@ def main():
                 if prod.code == search_code:
                     # Display product details
                     print("\nProduct found:")
-                    print(f"| Code: {prod.code}")
-                    print(f"| Name: {prod.name}")
-                    print(f"| Category: {prod.category}")
-                    print(f"| Description: {prod.desc}")
+                    print(f"| Code: {prod.getcode()}")
+                    print(f"| Name: {prod.getname()}")
+                    print(f"| Category: {prod.getcategory()}")
+                    print(f"| Description: {prod.getdesc()}")
                     print()
                     found = True
 
