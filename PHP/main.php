@@ -175,10 +175,6 @@ if (isset($_GET['search_code'])) {
                             <input type="hidden" name="action" value="remove_product">
                             <input type="submit" value="Remove">
                         </form>
-                        <form action="main.php" method="POST" style="display:inline;">
-                            <input type="hidden" name="action" value="update_product">
-                            <input type="submit" value="Update">
-                        </form>
                     </td>
                 </tr>
             <?php endforeach; ?>
